@@ -1,0 +1,138 @@
+doctype html
+html(lang="en")
+    head
+        title pages
+        include includes/head
+    body
+        .container.relative.absolute
+            header.container.absolute.header-size.px-0
+                .row.flex-items-lg-middle
+                    .col-lg-2
+                        a(href="#")
+                            img(src="../img/businessplus-logo.png" width="164" height="34")
+                    .col-lg-3
+                        .row.flex-items-lg-middle
+                            i.fa.fa-phone.fa-2x.pl-1.border-line.pl-1(aria-hidden="true")
+                            p.pt-1.pl-1.tx-color +9978-8856-999
+                    .col-lg-7
+                        nav.navbar.px-0
+                            ul.nav.navbar-nav.nav-head-text
+                                li.nav-item
+                                    a.nav-link(href="#") home
+                                li.nav-item
+                                    a.nav-link(href="#") about us
+                                li.nav-item
+                                    a.nav-link(href="#") services
+                                li.nav-item
+                                    a.nav-link(href="#") news
+                                li.nav-item
+                                    a.nav-link(href="#") blog
+                                li.nav-item
+                                    a.nav-link.orange(href="#") pages
+                                li.nav-item
+                                    a.nav-link(href="#") contact us
+        .banner-cont.background-color.relative
+            img.banner(src="../img/img-faq.png" alt="banner")
+        .container
+            h6.blog-title.pt-3 Faq's
+            p.blog-subtitle frequently asked questions
+            .row
+                .col-lg-6.mb-3
+                    ol.list-text.relative
+                        li
+                            p Fun environment ?
+                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                | the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                | of type and scrambled it to make a type specimen book.
+                        li
+                            p Proin porta elit at orci rhoncus tincidunt ?
+                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                | the industry's standard dummy text ever since the 1500s, when an unknown printer.
+                        li
+                            p Phasellus molestie nulla et nulla ?
+                            p It is a long established fact that a reader will be distracted by the readable content of a page
+                                | when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                                | distribution of letters, as opposed to using 'Content here.
+                        li
+                            p Phasellus molestie nulla et nulla ?
+                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                | the industry's standard dummy text ever since the 1500s, when an unknown printer.
+                .col-lg-6.mb-3
+                    ol.list-text.relative
+                        li
+                            p Nullam scelerisque orci ?
+                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                | the industry's standard dummy text ever since the 1500s, when an unknown printer.
+                        li
+                            p orci rhoncus tincidunt ?
+                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                | the industry's.
+                        li
+                            p molestie nulla et nulla ?
+                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                | the industry's standard dummy text ever since the 1500s, when an unknown printer.
+                        li
+                            p Curabitur consequat ante ?
+                            p There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                                | alteration in some form, by injected humour, or randomised words which don't look even slightly
+                                | believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                                | anything embarrassing
+        .container-fluid.grey
+            .container.pyramid-blue.relative
+                .row
+                    .col-lg-12.text-lg-center.mt-3
+                        .blog-title.pt-3 Search questions
+                        .blog-subtitle if you have any more question search here OR feel free to contact us
+                        form.flex-items-lg-middle.mb-3
+                            input.search(type="search" name="q" placeholder="Enter your question here")
+                            input.icon-search(type="submit" value="&#128269;")
+                            p
+                                button.btn-size.btn.btn-type.width-btn.mt-3(type="button") Contact us
+        .container-fluid.black
+            footer.container.relative.pyramid-yel.p-y
+                .row
+                    .col-lg-2.link-color.pt-3
+                        a(href="#")
+                            img.pdg-logo(src="../img/businessplus-logo.png" alt="logo")
+                        p.copyright 2015 © lawyer.
+                        a(href="#")
+                            i.fa.fa-facebook-square.fa-3x(aria-hidden="true")
+                        a(href="#")
+                            i.fa.fa-google-plus-official.fa-3x(aria-hidden="true")
+                        a(href="#")
+                            i.fa.fa-twitter-square.fa-3x(aria-hidden="true")
+                        a(href="#")
+                            i.fa.fa-linkedin-square.fa-3x(aria-hidden="true")
+                    .col-lg-3.offset-lg-2
+                        p.form-head.pl-1 Navigation
+                        nav.navbar
+                            ul.nav.nav-footer
+                                li.nav-item
+                                    a.nav-link(href="#") home
+                                li.nav-item
+                                    a.nav-link(href="#") about us
+                                li.nav-item
+                                    a.nav-link(href="#") services
+                                li.nav-item
+                                    a.nav-link(href="#") news
+                                li.nav-item
+                                    a.nav-link(href="#") blog
+                                li.nav-item
+                                    a.nav-link.orange(href="#") pages
+                                li.nav-item
+                                    a.nav-link(href="#") contact us
+                    .col-lg-5
+                        form
+                            p.form-head.pb-2 quick contact us
+                            table.border-form
+                                tr
+                                    td.td-padding
+                                        input.relative(type="text" name="Name" value="Name")
+                                    td.td-padding
+                                        input(type="email" name="email" value="Email")
+                                tr
+                                    td(colspan="2")
+                                        textarea(name="comment" placeholder="Comment")
+                            p
+                                button.btn.btn-type.mt-2(type="button") Submit Now
+

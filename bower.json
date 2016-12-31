@@ -1,0 +1,25 @@
+{
+  "name": "Business-plusHW",
+  "homepage": "https://github.com/Vdemianenko/Business-plusHW",
+  "authors": [
+    "Vdemianenko <dem199422@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.5",
+    "font-awesome": "fontawesome#^4.7.0",
+    "raleway": "^1.0.1",
+    "openSans": "https://google-fonts.azurewebsites.net/googleFonts/openSans?family=Open+Sans",
+    "lora": "https://google-fonts.azurewebsites.net/googleFonts/css?family=Lora:400i"
+  }
+}

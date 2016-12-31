@@ -1,0 +1,80 @@
+
+body
+  font: 400 14px/24px 'Open Sans', sans-serif
+
+.search
+  border: none
+  outline: none
+  width: 700px
+  height: 47px
+
+.icon-search
+  width: 47px
+  height: 47px
+  padding-bottom: -20px
+  background-color: #ffaf36
+  border: none
+  outline: none
+
+.grey
+  background-color: #eaeff3
+
+.width-btn
+  width: 151px
+
+.black
+  background-color: #2a2b2c
+
+.link-color a:link, a:visited
+  color: #1c1c1c
+
+.link-color a:hover
+  color: #ffaf36
+
+.pyramid-blue
+  z-index: 10
+
+.orange
+  color: #ffaf36
+
+.nav .nav-item .orange
+  color: #ffaf36
+
+.list-text p:nth-child(2n+1)
+  padding-top: 15px
+  color: #1c1c1c
+  font: 700 16px/24px Raleway
+  text-transform: uppercase
+
+ol.list-text
+  counter-reset: myCounter
+
+.list-text li
+  list-style: none
+
+.list-text li:before
+  position: absolute
+  left: -60px
+  top: 0
+  color: white
+  display: inline-block
+  text-align: center
+  margin: 10px 10px
+  line-height: 30px
+  counter-increment: myCounter
+  content: counter(myCounter)
+  z-index: 100
+.list-text li:after
+  content: ''
+  position: absolute
+  left: -62px
+  top: 9px
+  background: orange
+  width: 30px
+  height: 30px
+  transform: rotate(45deg)
+.relative li
+  position: relative
+
+
+

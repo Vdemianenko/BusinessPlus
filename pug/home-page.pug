@@ -1,0 +1,230 @@
+doctype html
+html(lang="en")
+    head
+        title Home page
+        include includes/head
+    body
+        .container.relative.absolute
+            header.container.absolute.header-size.px-0
+                .row.flex-items-lg-middle
+                    .col-lg-2
+                        a(href="#")
+                            img(src="../img/businessplus-logo.png" width="164" height="34")
+                    .col-lg-3
+                        .row.flex-items-lg-middle
+                            i.fa.fa-phone.fa-2x.pl-1.border-line.pl-1(aria-hidden="true")
+                            p.pt-1.pl-1.tx-color +9978-8856-999
+                    .col-lg-7
+                        nav.navbar.px-0
+                            ul.nav.navbar-nav.nav-head-text
+                                li.nav-item
+                                    a.nav-link.orange(href="#") home
+                                li.nav-item
+                                    a.nav-link(href="#") about us
+                                li.nav-item
+                                    a.nav-link(href="#") services
+                                li.nav-item
+                                    a.nav-link(href="#") news
+                                li.nav-item
+                                    a.nav-link(href="#") blog
+                                li.nav-item
+                                    a.nav-link(href="#") pages
+                                li.nav-item
+                                    a.nav-link(href="#") contact us
+        #carousel-example-generic.carousel.slide(data-ride="carousel")
+            ol.carousel-indicators
+                li.active(data-target="#carousel-example-generic" data-slide-to="0")
+                li(data-target="#carousel-example-generic" data-slide-to="1")
+                li(data-target="#carousel-example-generic" data-slide-to="2")
+            .carousel-inner(role="listbox")
+                .carousel-item.active
+                    img.background-color(src="../img/carousel-img1.png" alt="First slide")
+                    .carousel-caption.text-lg-left
+                        .container
+                            p.md-text Welcome to
+                            h1.lg-text Business plus
+                            p.sm-text.pt-1 Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                |Lorem Ipsum has been the industry's standard dummy text ever.
+                            button.btn.btn-type.btn-size read more
+                .carousel-item
+                    img.background-color.opacity(src="../img/carousel-photo2.jpg" alt="Second slide")
+                    .carousel-caption.text-lg-left
+                        .container
+                            p.md-text Welcome to
+                            h1.lg-text Business plus
+                            p.sm-text.pt-1 Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                    | Lorem Ipsum has been the industry's standard dummy text ever.
+                            button.btn.btn-type.btn-size read more
+                .carousel-item
+                    img.background-color.opacity(src="../img/carousel-photo-3.png" alt="Third slide")
+                    .carousel-caption.text-lg-left
+                        .container
+                            p.md-text Welcome to
+                            h1.lg-text Business plus
+                            p.sm-text.pt-1 Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                | Lorem Ipsum has been the industry's standard dummy text ever.
+                            button.btn.btn-type.btn-size read more
+        .container.pl-0
+            .row.p-y
+                .col-lg-6
+                    h6.blog-title About us
+                    p.blog-subtitle Our Short Story
+                .col-lg-6
+                    p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                        |industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                        |scrambled it to make a type specimen book.
+                    button.btn.btn-type.btn-size(type="button") read more
+        .container-fluid.grey
+            .container.p-y.pl-0.pyramid-blue.relative
+                h6.blog-title services
+                p.blog-subtitle What we are doing
+                .row.my-3
+                    .col-lg-1
+                        img(src="../img/rocket.png" alt="rocket")
+                    .col-lg-5
+                        p.text-uppercase.offers-title Boosting your business
+                        p Lorem Ipsum is simply dummy text of the printing and type
+                            |setting industry. Lorem Ipsum has been the industry'
+                    .col-lg-1
+                        img(src="../img/support.png" alt="support")
+                    .col-lg-5
+                        p.text-uppercase.offers-title Online support
+                        p Lorem Ipsum is simply dummy text of the printing and type
+                            | setting industry. Lorem Ipsum has been the industry'
+                .row
+                    .col-lg-1
+                        img(src="../img/analyzing.png.png" alt="analyze")
+                    .col-lg-5
+                        p.text-uppercase.offers-title analyzing business strategy
+                        p Lorem Ipsum is simply dummy text of the printing and type
+                            | setting industry. Lorem Ipsum has been the industry'
+                    .col-lg-1
+                        img(src="../img/clock.png" alt="clock")
+                    .col-lg-5
+                        p.text-uppercase.offers-title Time managment
+                        p Lorem Ipsum is simply dummy text of the printing and type
+                            | setting industry. Lorem Ipsum has been the industry'
+                .row.pt-3
+                    .col-lg-3
+                        button.btn.btn-type.btn-size view more
+        .container.p-y.pl-0.pyramid-yel.relative
+            h6.blog-title clients
+            p.blog-subtitle What our client says
+            .row.pt-3
+                .col-lg-4.doublecommag Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    |Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                .col-lg-4.doublecommab Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    | Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                .col-lg-4.doublecommay Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    | Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+            .row.pt-3
+                .col-lg-1
+                    img(src="../img/clients-photo1.png")
+                .col-lg-3.text-lg-left
+                    p.client-name.pt-2 Krishnan Unni
+                    p Designation
+                .col-lg-1
+                    img(src="../img/clients-photo2.png")
+                .col-lg-3.text-lg-left
+                    p.client-name.pt-2 Mariya Jeorge
+                    p Designation
+                .col-lg-1
+                    img(src="../img/clients-photo3.png")
+                .col-lg-3.text-lg-left
+                    p.client-name.pt-2 Akhil Designer
+                    p Designation
+        .container-fluid.grey
+            .container.p-y.pl-0
+                h6.blog-title News
+                p.blog-subtitle From our Blog
+                .row
+                    .col-lg-1.text-lg-right.pt-1
+                        p.day-text.text-uppercase 30
+                        p.orange-bord.pb-1 Oct-2015
+                        i.fa.fa-comment-o.fa-2x(aria-hidden="true")
+                        p.orange-bord.pb-1 8- Com
+                        i.fa.fa-eye.fa-2x(aria-hidden="true")
+                        p 16- View
+                    .col-lg-5
+                        img.gradient(src="../img/news-img.png")
+                        p.blog-heading Blog Heading
+                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            |industry's standard dummy...
+                    .col-lg-6
+                        .bord-bottom
+                            h6.blog-heading Blog heading
+                            p.date-text.text-uppercase 30 - Oct - 2015
+                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                |Lorem Ipsum has been the industry's standard dummy...
+                        h6.blog-heading Blog heading
+                        p.date-text.text-uppercase 1 - Nov - 2015
+                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            |industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                            |and scrambled...
+                        button.btn.btn-type.btn-size.mt-2(type="button") view more
+        .container.p-y.px-0.pyramid-blue.relative
+            h6.blog-title Partners
+            p.blog-subtitle Our Great Partners
+            .row.flex-items-lg-center.mt-3
+                .img-border.relative
+                    img(src="../img/beerbeer.png")
+                .img-border.relative
+                    img(src="../img/prestiges.png")
+                .img-border.relative
+                    img(src="../img/deerbrand.png")
+                .img-border.relative
+                    img(src="../img/genuine.png")
+                .img-border.relative
+                    img(src="../img/retrobrand.png")
+                .img-border.relative
+                    img(src="../img/retrodesign.png")
+        .container-fluid.black
+            footer.container.relative.pyramid-yel.p-y
+                .row
+                    .col-lg-2.link-color.pt-3
+                        a(href="#")
+                            img.pdg-logo(src="../img/businessplus-logo.png" alt="logo")
+                        p.copyright 2015 © lawyer.
+                        a(href="#")
+                            i.fa.fa-facebook-square.fa-3x(aria-hidden="true")
+                        a(href="#")
+                            i.fa.fa-google-plus-official.fa-3x(aria-hidden="true")
+                        a(href="#")
+                            i.fa.fa-twitter-square.fa-3x(aria-hidden="true")
+                        a(href="#")
+                            i.fa.fa-linkedin-square.fa-3x(aria-hidden="true")
+                    .col-lg-3.offset-lg-2
+                        p.form-head.pl-1 Navigation
+                        nav.navbar
+                            ul.nav.nav-footer
+                                li.nav-item
+                                    a.nav-link.orange(href="#") home
+                                li.nav-item
+                                    a.nav-link(href="#") about us
+                                li.nav-item
+                                    a.nav-link(href="#") services
+                                li.nav-item
+                                    a.nav-link(href="#") news
+                                li.nav-item
+                                    a.nav-link(href="#") blog
+                                li.nav-item
+                                    a.nav-link(href="#") pages
+                                li.nav-item
+                                    a.nav-link(href="#") contact us
+                    .col-lg-5
+                        form
+                            p.form-head.pb-2 quick contact us
+                            table.border-form
+                                tr
+                                    td.td-padding
+                                        input.relative(type="text" name="Name" value="Name")
+                                    td.td-padding
+                                        input(type="email" name="email" value="Email")
+                                tr
+                                    td(colspan="2")
+                                        textarea(name="comment" placeholder="Comment")
+                            p
+                                button.btn.btn-type.mt-2(type="button") Submit Now
+    script(src="../bower_components/jquery/dist/jquery.js")
+    script(src="../bower_components/tether/dist/js/tether.min.js")
+    script(src="../bower_components/bootstrap/dist/js/bootstrap.min.js")

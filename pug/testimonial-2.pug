@@ -1,0 +1,88 @@
+doctype html
+html(lang="en")
+    head
+        title testimonials
+        include includes/head
+    body
+        include includes/header
+        .banner-cont.background-color.relative
+            img.banner(src="../img/testimonialbg.png" alt="banner")
+        .container.px-0.p-y.relative.pyramid-blue
+            h6.blog-title Testimonials
+            p.blog-subtitle Our Happy Clients
+            .row
+                .col-lg-4
+                    img(src="../img/tesimg1.png")
+                .col-lg-8
+                    .client-quote.tesquote.relative
+                        i.fa.fa-quote-left.absolute.quote-left(aria-hidden="true")
+                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            | industry's standard dummy text ever since the 1500s, when an unknown printer took
+                            | galley of type and scrambled it to make a type specimen book. It has survived
+                            i.fa.fa-quote-right.absolute.quote-right(aria-hidden="true")
+                        p.client-name.text-uppercase name here
+                        p.orange Designation
+        .container-fluid.grey
+            .container.px-0.p-y.relative.pyramid-yel
+                .row
+                    .col-lg-4
+                        img(src="../img/tesimg2.png")
+                    .col-lg-8
+                        .client-quote.relative
+                            i.fa.fa-quote-left.absolute.quote-left(aria-hidden="true")
+                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                | industry's standard dummy text ever since the 1500s, when an unknown printer took
+                                | galley of type and scrambled it to make a type specimen book. It has survived
+                            i.fa.fa-quote-right.absolute.quote-right(aria-hidden="true")
+                            p.client-name.text-uppercase name here
+                            p.orange Designation
+        .container.px-0.p-y.relative
+            .row
+                .col-lg-4
+                    img(src="../img/tesimg3.png")
+                .col-lg-8
+                    .client-quote.relative
+                        i.fa.fa-quote-left.absolute.quote-left(aria-hidden="true")
+                        p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            | industry's standard dummy text ever since the 1500s, when an unknown printer took
+                            | galley of type and scrambled it to make a type specimen book. It has survived
+                        i.fa.fa-quote-right.absolute.quote-right(aria-hidden="true")
+                        p.client-name.text-uppercase name here
+                        p.orange Designation
+        .container-fluid.grey
+            .container.px-0.p-y.relative
+                .row
+                    .col-lg-4
+                        img(src="../img/tesimg4.png")
+                    .col-lg-8
+                        .client-quote.relative
+                            i.fa.fa-quote-left.absolute.quote-left(aria-hidden="true")
+                            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                | industry's standard dummy text ever since the 1500s, when an unknown printer took
+                                | galley of type and scrambled it to make a type specimen book. It has survived
+                            i.fa.fa-quote-right.absolute.quote-right(aria-hidden="true")
+                            p.client-name.text-uppercase name here
+                            p.orange Designation
+        .container.px-0.p-y.pyramid-blue.relative
+            h6.blog-title.text-uppercase Post Comments
+            p.blog-subtitle Post Your testimonial now
+            form(method="get" href="#")
+                .row
+                    .col-lg-6
+                        .border-tes
+                            label.text-uppercase name
+                                span.orange *
+                            input(type="text" name="Name")
+                        .border-tes
+                            label.text-uppercase email
+                                span.orange *
+                            input(type="email" name="email")
+                        .border-tes
+                            label.text-uppercase phone
+                                span.orange *
+                            input(type="text" name="phone")
+                    .col-lg-6
+                        .border-area
+                            p.text-uppercase comment
+                                span.orange *
+        include  includes/footer
